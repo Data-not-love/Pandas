@@ -45,7 +45,7 @@ print(print_in_json_4mat)
 
 filter_conditions_2 = data_json[(data_json["Sex"] == "female")]
 
-info_2 = filter_conditions_2[["Name", "Fare"]]
+info_2 = filter_conditions_2[["Name", "Fare",]]
 limited_in4_2 = info_2.head(5)
 convert_json_2 = limited_in4_2.to_dict(orient='records')
 print_js = json.dumps(convert_json_2,indent=4)
