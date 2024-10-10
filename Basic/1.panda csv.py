@@ -25,4 +25,3 @@ print (ages.head(5))
 
 print (type(ages))
 print (ages.shape)
-print ( "ok")
