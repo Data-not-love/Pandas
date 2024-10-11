@@ -15,5 +15,4 @@ air_qlty.plot.box ()
 
 air_qlty.plot.area(figsize=(12, 4), subplots=True)
 plt.show()
-print ('noob at Panda')
-print ('noob at Pandas')
+print ('Show plot')
