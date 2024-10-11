@@ -17,3 +17,4 @@ print ( csv["Age"].max() ,csv["Age"].min() )
 passenger_name = csv.loc[(csv["Survived"] == 1) & (csv["Age"] > 45) & (csv["Embarked"] == 'C'), ["Name","Fare"]]
 
 print (passenger_name)
+print("ok")
