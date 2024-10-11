@@ -14,4 +14,6 @@ air_qlty.plot.scatter(x="station_london", y="station_paris", alpha=0.5)
 air_qlty.plot.box ()
 
 air_qlty.plot.area(figsize=(12, 4), subplots=True)
-plt.show()print ('noob at Panda')
+plt.show()
+print ('noob at Panda')
+print ('noob at Pandas')
