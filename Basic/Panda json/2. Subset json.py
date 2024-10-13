@@ -37,3 +37,4 @@ print(print_information_to_json)
 
 print(type(information))
 
+print ("Not done")
