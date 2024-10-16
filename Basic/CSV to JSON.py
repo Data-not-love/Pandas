@@ -17,7 +17,9 @@ reformat_csv = reformat_path(input_csv)
 csv_read = pd.read_csv(reformat_csv)
 csv_read = csv_read.fillna("NaN")
 
-
+# ko thể làm việc với datetime của json
+if 'datetime' in csv_read.columns:
+    csv_read['datetime'] = pd.to_datetime(csv_read['datetime']).dt.strftime('%Y-%m-%dT%H:%M:%S')
 
 output_json = input("Use complete path: ")
 reformat_output = reformat_path(output_json)
