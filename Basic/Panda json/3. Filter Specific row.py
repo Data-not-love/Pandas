@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # LOAD JSON
-data_json = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/output.json")
+data_json = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.json")
 
 
 limited_records_json = data_json.head(3)

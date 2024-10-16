@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-data_json = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/output.json")
+data_json = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.json")
 data_json_limited = data_json.head(5)
 data_frame_data_json = data_json_limited.to_dict()
 print_json = json.dumps(data_frame_data_json, indent = 4)
