@@ -17,7 +17,7 @@ def reformat_path (str):
 
 new_format = reformat_path(input_excel)
 excel = pd.read_excel(new_format)
-
+excel = excel.fillna('NaN')
 
 input_save_location = input("Use complete path for better accuracy : ")
 save_reformat = reformat_path(input_save_location)
