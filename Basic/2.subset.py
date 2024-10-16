@@ -1,7 +1,7 @@
 # lọc hàng và cột
 import pandas as pd
 
-csv = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Basic/test.csv")
+csv = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.csv")
 condition = csv[((csv["Age"]> 35) & (csv["Survived"] ==1)) | (csv["Pclass"] == 3)]
 print (condition.head (23))
 print ( condition.shape)
