@@ -38,5 +38,7 @@ condition_ticket = titanic[((titanic["Survived"] == 1) & (titanic["Age"] > 30))]
 print(condition_ticket)
 
 
+
+
 # KO THỂ ĐƯA ĐIỀU KIỆN TRỰC TIẾP vào groupby()
 # lọc dữ liệu trước groupby() hoặc áp dụng điều kiện trong hàm tổng hợp agg() hoặc apply().
