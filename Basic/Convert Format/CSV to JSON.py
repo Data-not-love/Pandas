@@ -26,5 +26,5 @@ reformat_output = reformat_path(output_json)
 to_json = csv_read.to_dict(orient='records')
 with open(reformat_output, 'w') as json_file:
     json.dump(to_json, json_file, indent=5)
-print("SUCCESSFULLY CONVERT")
+print("SUCCESSFULLY CONVERT THE FILE. PLEASE CHECK")
 print("Upgrade a little bit!")
