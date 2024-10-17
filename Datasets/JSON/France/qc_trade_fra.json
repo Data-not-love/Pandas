@@ -1,0 +1,506 @@
+[
+     {
+          "Country ISO3": "#country+code",
+          "Year": "#date+year",
+          "Indicator Code": "#indicator+code",
+          "Value": "#indicator+value+num"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2023",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "53.032444683958"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2022",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "55.4025319421019"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2021",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "56.0032362432707"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2020",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "57.3662777164064"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2019",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "53.7448751114905"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2018",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "54.1858684929133"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2017",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "54.2840498517476"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2016",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "55.897275609627"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2015",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "57.6916211143501"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2014",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "53.7367423848164"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2013",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "51.7494946467012"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2012",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "51.7867915017589"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2011",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "48.4274935125491"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2010",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "50.1090203736815"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2009",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "52.2094812751729"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2008",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "49.1094176125042"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2007",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "48.1287966674383"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2006",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "47.413074224991"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2005",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "46.4007398426419"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2004",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "45.2128118937941"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2003",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.8513396478639"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2002",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.796809055521"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2001",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "42.8941930408548"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2000",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "41.8257626149087"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1999",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "38.4143886075488"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1998",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.3438626507046"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1997",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.0595167271526"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1996",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.561501758584"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1995",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.3017637192514"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1994",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.4236865406486"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1993",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "33.6484688722424"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1992",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "25.8409125845946"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1991",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "35.0615683095006"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1990",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "33.824083455526"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1989",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "34.3770001539887"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1988",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "39.6664913225102"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1987",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "47.4375573236923"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1986",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "47.9900543772346"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1985",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "48.55570414339"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1984",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "48.439987895845"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1983",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "47.6687475380246"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1982",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "44.2274819838825"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1981",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "49.4164663586281"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1980",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "50.0300633819021"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1979",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "48.1165613262481"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1978",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "46.8807334038784"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1977",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "45.0672299703387"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1976",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "43.3051858415019"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1975",
+          "Indicator Code": "BM.GSR.CMCP.ZS",
+          "Value": "42.1050433285674"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2020",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "117109000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2019",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "217877000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2018",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "211998000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2017",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "207274000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2016",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "203042000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2015",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "203302000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2014",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "206599000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2013",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "204410000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2012",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "197522000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2011",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "196595000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2010",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "189826000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2009",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "192369000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2008",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "193571000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2007",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "193319000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2006",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "193882000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2005",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "185829000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2004",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "190282000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1997",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "157551000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "1996",
+          "Indicator Code": "ST.INT.ARVL",
+          "Value": "148263000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2020",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "21287000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2019",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "49276000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2018",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "48069000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2017",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "44265000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2016",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "29636000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2015",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "30608000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2014",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "31941000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2013",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "30457000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2012",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "29642000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2011",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "31153000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2010",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "29973000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2009",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "30646000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2008",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "30960000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2007",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "33144000"
+     },
+     {
+          "Country ISO3": "FRA",
+          "Year": "2006",
+          "Indicator Code": "ST.INT.DPRT",
+          "Value": "27107000"
+     }
+]
