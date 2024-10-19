@@ -9,13 +9,13 @@ print (len(dtFrame))
 dtFrame["Date"]= pd.to_datetime(dtFrame["Date"])
 
 start_date = datetime(2004, 7,1)
-end_date = datetime(2004,7,31)
+end_date = datetime(2004,7,30)
 
 range = (dtFrame["Date"] >= start_date) & (dtFrame["Date"] <= end_date)
 
 dfRange = dtFrame[range]
 
-dfRange.plot.scatter(x="Date",y="High")
+dfRange.plot.bar(x="Date",y="High")
 plt.xticks(rotation=75)
 plt.grid(True)
 plt.xlabel("Trading dates in July")
