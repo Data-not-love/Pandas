@@ -33,7 +33,7 @@ for bar in bars:
             ha='center', va='bottom')
 plt.xticks(rotation = 45)
 plt.grid(True)
-plt.title("Mean Open of October Each Year")
+plt.title("Mean Open of NETFLIX in October Each Year")
 plt.xlabel("Year")
 plt.ylabel("Value $")
 plt.show()
