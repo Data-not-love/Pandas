@@ -41,6 +41,8 @@ for bar in bars:
     plt.text(bar.get_x() + bar.get_width()/2., height,
             f'{height:,.0f}',
             ha='center', va='bottom')
+
+    
 plt.grid(True)
 plt.xlabel("Company")
 plt.ylabel("Highest Open Price ($)")

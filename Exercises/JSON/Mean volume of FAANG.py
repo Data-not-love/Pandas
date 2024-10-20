@@ -27,7 +27,7 @@ for json_file in json_files:
 
 
 def calculate_mean_volume (data_frame):
-    return data_frame["Volume"].min()
+    return data_frame["Volume"].mean()
 
 # trục Y
 list_mean_result = []

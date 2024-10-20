@@ -8,7 +8,7 @@ dataframe["Date"] = pd.to_datetime(dataframe["Date"])
 
 dataframe["Month"] = dataframe["Date"].dt.strftime('%B')
 dataframe["Year"] = dataframe["Date"].dt.year
-print(dataframe)
+print(dataframe.dtypes)
 
 
 october_data = dataframe[dataframe["Month"] == "October"]
@@ -29,7 +29,7 @@ bars = plt.bar(x=X_for_year,height=Y_for_mean)
 for bar in bars:
     height = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2., height,
-            f'{height:,.0f}',
+            f'{height:,.2f}',# in ra 2 số sau thập phân
             ha='center', va='bottom')
 plt.xticks(rotation = 45)
 plt.grid(True)

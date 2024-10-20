@@ -26,8 +26,10 @@ print(trading_days_count)
 
 # Tính giá trị trung bình bằng cách chia tổng cho số ngày giao dịch
 mean_highs = monthly_highs / trading_days_count
-months_order = ['January', 'February', 'March', 'April', 'May', 'June',
-                'July', 'August', 'September', 'October', 'November', 'December']
+months_order = ['January', 'February', 'March',
+                'April', 'May', 'June',
+                'July', 'August', 'September',
+                'October', 'November', 'December']
 mean_highs = mean_highs.reindex(months_order)
 
 
