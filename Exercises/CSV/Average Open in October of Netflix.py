@@ -29,7 +29,7 @@ bars = plt.bar(x=X_for_year,height=Y_for_mean)
 for bar in bars:
     height = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2., height,
-            f'{height:,.2f}',# in ra 2 số sau thập phân
+            f'{height:,.3f}',# in ra 2 số sau thập phân
             ha='center', va='bottom')
 plt.xticks(rotation = 45)
 plt.grid(True)
