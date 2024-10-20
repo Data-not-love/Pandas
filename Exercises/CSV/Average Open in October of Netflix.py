@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from datetime import datetime
+
 
 dataframe = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/archive/Netflix.csv")
 print(len(dataframe))
@@ -20,7 +20,7 @@ grouped_october = october_data.groupby("Year").first()  # Take the first entry f
 # Create "October - Year" format for each unique year
 X_for_year = []
 for year in grouped_october.index:
-    X_for_year.append(f"{year}" )
+    X_for_year.append(f"{year}")
 print(X_for_year)
 
 
