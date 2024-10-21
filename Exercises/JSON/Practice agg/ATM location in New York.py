@@ -1,6 +1,6 @@
 import pandas as pd
 
-dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Bank-Owned_ATM_Locations_in_New_York_State.json")
+dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Bank-Owned_ATM_Locations_in_New_York_State_and_ratings.json")
 
 print (dt_frame.columns)
 ATM_in_brooklyn = len(dt_frame[dt_frame["City"] == "BROOKLYN"])
@@ -40,7 +40,7 @@ print("RESULTS")
 print ("---------------------------------------------------------------------------")
 # tìm các Institutions , số lượng instituion ở Westchester
 all_instituions_in_weschester = dt_frame[dt_frame["County"] == "Westchester"].groupby("Name of Institution").agg(
-    name_of_institution = pd.NamedAgg(column="Name of Institution",aggfunc="count")
+    Number_of_Institutions = pd.NamedAgg(column="Name of Institution",aggfunc="count")
 )
 print(all_instituions_in_weschester)
 
@@ -61,7 +61,6 @@ print(results)
 
 print ("---------------------------------------------------------------------------")
 all_instituions_in_brooklyn = dt_frame[dt_frame["City"] == "BROOKLYN"].groupby("Name of Institution").agg(
-    name_of_institution = pd.NamedAgg(column="Name of Institution",aggfunc="count")
+    Number_of_Institutions = pd.NamedAgg(column="Name of Institution",aggfunc="count")
 )
-
 print(all_instituions_in_brooklyn)

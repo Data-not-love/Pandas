@@ -28,8 +28,9 @@ result_survivor = titanic.groupby("Survived").agg(
     mean=pd.NamedAgg(column="Age", aggfunc="mean"),
 )
 print (result_survivor)
-
 print(titanic[titanic["Survived"] == 1]["Age"].mean())
+print("----------------------------------------------")
+
 #  Giá vé trung bình của những người sống sót là bao nhiêu?
 print(titanic[titanic["Survived"] == 1]["Fare"].mean())
 

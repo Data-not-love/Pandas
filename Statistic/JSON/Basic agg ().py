@@ -17,21 +17,22 @@ condition_pclass = titanic.groupby("Pclass").agg(
 )
 print(condition_pclass)
 
-
+print("-------------------------------------------------")
 # tìm số lượng female còn sống của từng class
 condition_female_survided = titanic[titanic["Sex"] == "female"].groupby("Pclass").agg(
     count_survived_female = pd.NamedAgg(column="Survived",aggfunc=lambda x:(x == 1).sum())
 )
 print(condition_female_survided)
+print("-------------------------------------------------")
 
 # tìm sô lượng người nam, nữ sống sót mà chi Fare > 40$
 
 condition_survived_fare_40 = titanic[titanic["Survived"] == 1].groupby("Sex").agg(
-    count_fare = pd.NamedAgg(column="Fare", aggfunc=lambda x : (x >= 40).sum())
+    count_fare = pd.NamedAgg(column="Fare", aggfunc=lambda x : (x > 40).sum())
 )
 print(condition_survived_fare_40)
 
-# tìm số lượng người còn sống sót > 30 tuổi đi toa S
+# tìm số lượng người còn sống sót > 30 tuổi đi toa S cua moi lop
 condition_ticket = titanic[((titanic["Survived"] == 1) & (titanic["Age"] > 30))].groupby("Pclass").agg(
     count_A_5_21171 = pd.NamedAgg(column="Embarked", aggfunc=lambda x :(x == "S").sum())
 )
