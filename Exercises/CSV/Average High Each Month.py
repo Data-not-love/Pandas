@@ -36,8 +36,14 @@ mean_highs = mean_highs.reindex(months_order)
 print(mean_highs)
 print(dtFrame)
 
-mean_highs.plot.bar(y="High")
+bars = plt.bar(x=months_order,height=mean_highs)
+for bar in bars:
+    height = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2., height,
+            f'{height:,.3f}',# in ra 2 số sau thập phân
+            ha='center', va='bottom')
 plt.xticks(rotation=45)
+plt.grid(True)
 plt.show()
 # In kết quả
 
