@@ -6,7 +6,7 @@ print (dt_frame.columns)
 ATM_in_brooklyn = len(dt_frame[dt_frame["City"] == "BROOKLYN"])
 print(ATM_in_brooklyn)
 
-Number_of_Alma = len(dt_frame[dt_frame["Name of Institution"] == "ALMA BANK"])
+Number_of_Alma = len(dt_frame[dt_frame["Name of Institution"] == "Alma Bank"])
 print(Number_of_Alma)
 
 
@@ -36,10 +36,10 @@ print(all_city)
 
 number_of_all_city = len(dt_frame["City"].unique())
 print(number_of_all_city)
-
+print("RESULTS")
+print ("---------------------------------------------------------------------------")
 # tìm các Institutions , số lượng instituion ở Westchester
-dt_frame_weschester = dt_frame[dt_frame["County"] == "Westchester"]
-all_instituions_in_weschester = dt_frame_weschester.groupby("Name of Institution").agg(
+all_instituions_in_weschester = dt_frame[dt_frame["County"] == "Westchester"].groupby("Name of Institution").agg(
     name_of_institution = pd.NamedAgg(column="Name of Institution",aggfunc="count")
 )
 print(all_instituions_in_weschester)
@@ -56,3 +56,12 @@ print ("------------------------------------------------------------------------
 
 results = dt_frame[dt_frame["County"] == 'Westchester'].groupby('Name of Institution').count()
 print(results)
+
+
+
+print ("---------------------------------------------------------------------------")
+all_instituions_in_brooklyn = dt_frame[dt_frame["City"] == "BROOKLYN"].groupby("Name of Institution").agg(
+    name_of_institution = pd.NamedAgg(column="Name of Institution",aggfunc="count")
+)
+
+print(all_instituions_in_brooklyn)
