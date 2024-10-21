@@ -1,6 +1,6 @@
 import pandas as pd
 
-dt_frame = pd.read_json("/Datasets/JSON/Bank-Owned_ATM_Locations_in_New_York_State_and_ratings.json")
+dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Bank-Owned_ATM_Locations_in_New_York_State_and_ratings.json")
 
 print (dt_frame.columns)
 ATM_in_brooklyn = len(dt_frame[dt_frame["City"] == "BROOKLYN"])

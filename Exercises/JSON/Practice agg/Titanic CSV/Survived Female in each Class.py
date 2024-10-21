@@ -1,6 +1,6 @@
 import pandas as pd
 # tìm số lượng female còn sống của từng class
-dt_frame = pd.read_json("/Basic/titanic.json")
+dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.json")
 
 print(dt_frame.columns)
 
