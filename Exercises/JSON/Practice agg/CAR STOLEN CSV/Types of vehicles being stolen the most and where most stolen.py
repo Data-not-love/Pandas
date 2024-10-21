@@ -12,5 +12,8 @@ result = merge_2_data_frame.groupby("vehicle_type").agg(
     stolen_quantity = pd.NamedAgg(column="vehicle_type", aggfunc="count"),
     where_most_being_stolen = pd.NamedAgg(column="region",aggfunc=lambda x:x.value_counts().idxmax())
 )
-print(result)
+
+sorted_result = result.sort_values(by='stolen_quantity', ascending=False)
+
+print(sorted_result)
 
