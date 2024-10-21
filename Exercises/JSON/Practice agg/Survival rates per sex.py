@@ -6,7 +6,7 @@ total_survival = dt_frame[dt_frame["Survived"] == 1]
 
 survival_rates = total_survival.groupby("Sex").agg(
     survival = pd.NamedAgg(column="Survived",aggfunc=lambda x:(x.sum())),
-    survival_rates = pd.NamedAgg(column="Survived",aggfunc=lambda x:(x.sum()/len(total_survival)) *100)
+    survival_rates = pd.NamedAgg(column="Survived",aggfunc=lambda x:( x.sum() / len(total_survival)) * 100 )
 )
 print(survival_rates)
 
