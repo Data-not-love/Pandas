@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 
-json_path = "F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Stock/"
+json_path = "/Datasets/JSON/Stock/"
 
 json_files = []
 json_files = [json_file for json_file in os.listdir(json_path) if json_file.endswith('.json')]
