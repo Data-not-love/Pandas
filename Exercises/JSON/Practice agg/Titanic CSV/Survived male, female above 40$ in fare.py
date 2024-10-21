@@ -1,7 +1,7 @@
 # tìm sô lượng người nam, nữ sống sót mà chi Fare > 40$
 import pandas as pd
 
-dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.json")
+dt_frame = pd.read_json("/Basic/titanic.json")
 print(dt_frame.columns)
 
 fare_above_40 = dt_frame[dt_frame["Survived"] == 1 ].groupby("Sex").agg(

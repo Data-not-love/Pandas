@@ -1,6 +1,6 @@
 # Tỷ lệ phần trăm những người sống sót theo giới tính là bao nhiêu?
 import pandas as pd
-dt_frame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.json")
+dt_frame = pd.read_json("/Basic/titanic.json")
 print(dt_frame.columns)
 total_survival = dt_frame[dt_frame["Survived"] == 1]
 
