@@ -6,7 +6,9 @@ import os
 json_path = "F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Stock/"
 
 json_files = []
-json_files = [json_file for json_file in os.listdir(json_path) if json_file.endswith('.json')]
+for json_file in os.listdir(json_path):
+    if json_file.endswith('.json'):
+        json_files.append(json_file)
 
 def load_dt_frame_and_print_in_json(json_file_path):
     full_path = os.path.join(json_path, json_file_path)

@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 
-dataFrame = pd.read_json("/Datasets/JSON/Stock/Amazon.json")
+dataFrame = pd.read_json("F:/3.5 Years/First Year/Python/Pandas/Datasets/JSON/Stock/Amazon.json")
 covert_json = dataFrame.to_dict(orient="records")
 pretty_print_console = json.dumps(covert_json, default=str,indent=4)
 print(pretty_print_console)
