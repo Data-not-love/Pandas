@@ -44,8 +44,9 @@ bars = plt.bar(x= x_company_list,height = list_mean_result)
 for bar in bars:
     height = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2., height,
-            f'{height:,.0f}',
+            f'{height:,.2f}',
             ha='center', va='bottom')
 plt.title('Average Stock Volume of Companies')
 plt.grid(True)
 plt.show()
+print("Done")
