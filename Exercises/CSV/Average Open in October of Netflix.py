@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 dataframe = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/archive/Netflix.csv")
 print(len(dataframe))
 dataframe["Date"] = pd.to_datetime(dataframe["Date"])
-
 dataframe["Month"] = dataframe["Date"].dt.strftime('%B')
 dataframe["Year"] = dataframe["Date"].dt.year
 print(dataframe.dtypes)
@@ -32,7 +31,7 @@ for bar in bars:
             f'{height:,.3f}',# in ra 2 số sau thập phân
             ha='center', va='bottom')
 plt.xticks(rotation = 45)
-plt.grid(True)
+plt.grid(True,alpha = 0.3)
 plt.title("Mean Open of NETFLIX in October Each Year")
 plt.xlabel("Year")
 plt.ylabel("Value per share ( $ )")
