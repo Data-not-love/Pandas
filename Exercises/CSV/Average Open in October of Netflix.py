@@ -7,7 +7,7 @@ print(len(dataframe))
 dataframe["Date"] = pd.to_datetime(dataframe["Date"])
 dataframe["Month"] = dataframe["Date"].dt.strftime('%B')
 dataframe["Year"] = dataframe["Date"].dt.year
-print(dataframe.dtypes)
+print(dataframe.columns)
 
 
 october_data = dataframe[dataframe["Month"] == "October"]
