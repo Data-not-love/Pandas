@@ -15,7 +15,8 @@ dataFrame_filter_range = dataFrame[wanted_range]
 
 dataFrame_filter_range.plot.bar(x = "Date", y = "Open/Close")
 plt.xticks(rotation=75)
-
-
+plt.ylabel("Ratio")
+plt.xlabel("Date")
+plt.grid(True, alpha = 0.3)
 print(len(dataFrame))
 plt.show()
