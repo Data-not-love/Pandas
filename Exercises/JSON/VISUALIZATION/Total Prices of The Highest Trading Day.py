@@ -59,5 +59,6 @@ for bar in bars:
 
 plt.grid(True)
 plt.ylabel("Total price of highest trading day")
+plt.xlabel('Big 5 Tech Companies')
 plt.grid(True, alpha = 0.3)
 plt.show()
