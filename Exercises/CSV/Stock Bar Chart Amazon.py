@@ -6,5 +6,5 @@ dataFrame = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/arch
 
 dataFrame.plot.bar(x="Date",y="Open")
 plt.xticks(np.arange(0, len(dataFrame), step=100),rotation=75)
-plt.grid(True)
+plt.grid(True, alpha = 0.3)
 plt.show()
