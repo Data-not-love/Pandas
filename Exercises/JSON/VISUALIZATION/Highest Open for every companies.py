@@ -39,12 +39,12 @@ bars = plt.bar(x=x_companies,height=max_open_price)
 for bar in bars:
     height = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2., height,
-            f'{height:,.0f}',
+            f'{height:,.2f}',
             ha='center', va='bottom')
 
     
 plt.grid(True)
-plt.xlabel("Company")
+plt.xlabel("Companies")
 plt.ylabel("Highest Open Price ($)")
 plt.title("Highest Open Price For Every Company")
 plt.grid(True,alpha = 0.3)
