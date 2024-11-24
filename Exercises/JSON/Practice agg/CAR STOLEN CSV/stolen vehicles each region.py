@@ -75,7 +75,6 @@ print ("------------------------------------------------------------------------
 
 r6 = merged_df.groupby("region").agg(
     amount = pd.NamedAgg(column = "vehicle_id" , aggfunc = lambda x: (x.count () > mean))
-
 )
 print (r6)
 
