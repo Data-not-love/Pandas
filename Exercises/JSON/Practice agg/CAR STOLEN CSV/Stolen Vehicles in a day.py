@@ -1,6 +1,6 @@
 import pandas as pd
 
-dt_frame_stolen_vehicles = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor+Vehicle+Thefts+CSV/stolen_vehicles.csv")
+dt_frame_stolen_vehicles = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor Vehicle Thefts CSV/stolen_vehicles.csv")
 print(dt_frame_stolen_vehicles.columns)
 
 
