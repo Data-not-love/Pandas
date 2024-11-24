@@ -1,8 +1,8 @@
 import pandas as pd
 
-dt_frame_stolen_vehicles = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor+Vehicle+Thefts+CSV/stolen_vehicles.csv")
+dt_frame_stolen_vehicles = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor Vehicle Thefts CSV/stolen_vehicles.csv")
 print(dt_frame_stolen_vehicles.columns)
-dt_frame_location = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor+Vehicle+Thefts+CSV/locations.csv")
+dt_frame_location = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Datasets/CSV/Motor Vehicle Thefts CSV/locations.csv")
 print(dt_frame_location.columns)
 
 
