@@ -70,11 +70,11 @@ print ("------------------------------------------------------------------------
 mean = dt_frame_1["vehicle_id"].count() / dt_frame_2["location_id"].count()
 print (mean)
 
-print ("----------------------------------------------------------------------------------------")
+print ("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 # tìm các region có số lượng xe > mean
 
 r6 = merged_df.groupby("region").agg(
-    amount = pd.NamedAgg(column = "vehicle_id" , aggfunc = lambda x: (x.count () > mean))
+    amount = pd.NamedAgg(column = "vehicle_id" , aggfunc = lambda x: x.count () > mean)
 )
 print (r6)
 
@@ -82,3 +82,14 @@ result_11 = merged_df_2.groupby(["region","make_type"]).agg(
     amount = pd.NamedAgg(column = "vehicle_id", aggfunc ="count")
 )
 print(result_11)
+
+print ("----------------------------------------------------------------------------------------")
+
+# số lượng xe bị ăn cắp từng năm
+merged_df_2["date_stolen"] = pd.to_datetime(merged_df_2["date_stolen"], format = '%m/%d/%y')
+merged_df_2["year"] = merged_df_2["date_stolen"].dt.year
+merged_df_2["month"] = merged_df_2["date_stolen"].dt.month
+r7 = merged_df_2.groupby(["region","year","month"]).agg(
+    amount = pd.NamedAgg (column = "vehicle_id", aggfunc ="count")
+)
+print (r7)
