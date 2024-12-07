@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-air_quality = pd.read_csv("/Basic/titanic.csv")
+air_quality = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.csv")
 print (air_quality[["Cabin"]])
 # Mean = AVERAGE
 print (air_quality.columns)
