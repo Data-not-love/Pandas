@@ -1,6 +1,6 @@
 import pandas as pd
 # read_csv : đọc thành dataframe = bảng
-analyzed_csv = pd.read_csv("/Basic/titanic.csv")
+analyzed_csv = pd.read_csv("F:/3.5 Years/First Year/Python/Pandas/Basic/titanic.csv")
 
 # in 9 hàng đầu tiên của dataframe
 print (analyzed_csv.head(9))
