@@ -1,4 +1,4 @@
-# Total Price = Highest (Close) * That day Volume
+git # Total Price = Highest (Close) * That day Volume
 
 import pandas as pd
 import matplotlib.pyplot as plt
