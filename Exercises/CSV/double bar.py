@@ -32,10 +32,10 @@ def fix_bar_ui(bars):
 fix_bar_ui(bars_men)
 fix_bar_ui(bars_women)
 # Thêm tiêu đề và nhãn
-plt.title('Double Bar Chart Example')
+plt.title('Double Bar About Point Chart Example')
 plt.xlabel('Category')
 plt.ylabel('Values')
 plt.xticks(x, df.index)   # Set the x-ticks to the category names
-plt.grid(True)
+plt.grid(True, alpha =0.3)
 # Hiển thị biểu đồ
 plt.show()
