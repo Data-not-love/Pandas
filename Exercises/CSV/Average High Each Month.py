@@ -43,7 +43,7 @@ for bar in bars:
             f'{height:,.3f}',# in ra 2 số sau thập phân
             ha='center', va='bottom')
 plt.xticks(rotation=45)
-plt.grid(True)
+plt.grid(True, alpha =0.8)
 plt.show()
 # In kết quả
 
