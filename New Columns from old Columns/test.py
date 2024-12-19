@@ -22,6 +22,6 @@ print (air_quality[["datetime","station_paris","station_london","paris/london"]]
 # khi đã thêm cột vào data frame => thành thuộc tính của dataframe
 air_quality.plot.bar(x="datetime",y="paris/london")
 plt.xticks(np.arange(0, len(air_quality), step=30),rotation=75)
-plt.title("Paris / London Ratio")
+plt.title("Paris / London Air Ratio")
 plt.grid(True, alpha = 0.3)
 plt.show()
