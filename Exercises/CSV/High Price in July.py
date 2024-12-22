@@ -17,7 +17,7 @@ dfRange = dtFrame[range]
 
 dfRange.plot.bar(x="Date",y="High")
 plt.xticks(rotation=75)
-plt.grid(True,alpha = 0.3)
+plt.grid(True,alpha = 0.4)
 plt.xlabel("Trading dates in July")
 plt.ylabel("High Price ($)")
 plt.show()
