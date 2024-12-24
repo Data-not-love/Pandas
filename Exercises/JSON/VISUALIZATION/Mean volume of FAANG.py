@@ -48,7 +48,7 @@ for bar in bars:
             ha='center', va='bottom')
 plt.title('Average Stock Volume of Companies')
 plt.ylabel('Number of Share ( Unit )')
-plt.xlabel('Big 5 Tech Companies')
+plt.xlabel('Big 5 Tech Companies in USA')
 plt.grid(True, alpha = 0.3)
 plt.show()
 print("Done")
