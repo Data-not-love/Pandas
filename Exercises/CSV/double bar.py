@@ -36,6 +36,6 @@ plt.title('Double Bar About Point Chart Example')
 plt.xlabel('Category')
 plt.ylabel('Values')
 plt.xticks(x, df.index)   # Set the x-ticks to the category names
-plt.grid(True, alpha =0.3)
+plt.grid(True, alpha =0.4)
 # Hiển thị biểu đồ
 plt.show()
