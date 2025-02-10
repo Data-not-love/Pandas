@@ -32,7 +32,7 @@ for bar in bars:
             ha='center', va='bottom')
 plt.xticks(rotation = 45)
 plt.grid(True,alpha = 0.3)
-plt.title("Mean Open Price of NETFLIX in October Each Year")
+plt.title("Mean Open Price of NETFLIX in October Every Year")
 plt.xlabel("Year")
 plt.ylabel("Value per share ( $ )")
 plt.show()
