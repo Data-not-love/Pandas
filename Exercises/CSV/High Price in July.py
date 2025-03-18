@@ -14,7 +14,6 @@ end_date = datetime(2004,7,30)
 range = (dtFrame["Date"] >= start_date) & (dtFrame["Date"] <= end_date)
 
 dfRange = dtFrame[range]
-
 dfRange.plot.bar(x="Date",y="High")
 plt.xticks(rotation=75)
 plt.grid(True,alpha = 0.4)
